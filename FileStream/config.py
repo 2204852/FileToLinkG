@@ -31,7 +31,7 @@ class Server:
     HAS_SSL = str(env.get("HAS_SSL", "0").lower()) in ("1", "true", "t", "yes", "y")
     NO_PORT = str(env.get("NO_PORT", "0").lower()) in ("1", "true", "t", "yes", "y")
     FQDN = str(env.get("FQDN", BIND_ADDRESS))
-    URL = "https://file-to-linkg-de135aadd914.herokuapp.com/".format(
+    URL = "https://gk-file2link-1fcd507bb466.herokuapp.com/".format(
         "s" if HAS_SSL else "", FQDN, "" if NO_PORT else ":" + str(PORT)
     )
     KEEP_ALIVE = str(env.get("KEEP_ALIVE", "t").lower()) in ("1", "true", "t", "yes", "y")
