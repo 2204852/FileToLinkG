@@ -18,11 +18,9 @@
 
 <p align="center">
     <a href="https://github.com/Gautamkumarg/FileStreamBot">
-       
-    </a>
 </p>
 <p align='center'>
-  This bot provides stream links for Telegram files without the necessity of waiting for the download to complete, offering the ability to store files.
+  <b>This bot provides stream links for Telegram files without the necessity of waiting for the download to complete, offering the ability to store files</b>
 </p>
 
 
