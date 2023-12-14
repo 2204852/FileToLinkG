@@ -1,15 +1,15 @@
 <h1 align="center">FileStreamBot</h1>
 <p align="center">
-  <a href="https://github.com/Avipatilpro/FileStreamBot">
-    <img src="https://graph.org/file/80d1f94e81bbc1acadb36.jpg" alt="Cover Image" width="550">
+  <a href="https://github.com/Gautamkumarg/FileStreamBot">
+    <img src="https://graph.org/file/ea80f7cdbc7a9bfd9378c.jpg" alt="Cover Image" width="550">
   </a>
 </p>  
   <p align="center">
    </strong></a>
     <br><b>
-    <a href="https://github.com/Avipatilpro/FileStreamBot/issues">Report a Bug</a>
+    <a href="https://github.com/Gautamkumarg/FileStreamBot">Report a Bug</a>
     |
-    <a href="https://github.com/Avipatilpro/FileStreamBot/issues">Request Feature</a></b>
+    <a href="https://github.com/Gautamkumarg/FileStreamBot">Request Feature</a></b>
   </p>
 
 
@@ -17,7 +17,7 @@
 ### 🍁 About :
 
 <p align="center">
-    <a href="https://github.com/Avipatilpro/FileStreamBot">
+    <a href="https://github.com/Gautamkumarg/FileStreamBot">
         <img src="https://i.ibb.co/ZJzJ9Hq/link-3x.png" height="100" width="100" alt="FileStreamBot Logo">
     </a>
 </p>
@@ -41,7 +41,7 @@
 - Press the below button to Fast deploy on Heroku
 
 
-   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/avipatilpro/FileStreamBot)
+   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Gautamkumarg/FileStreamBot)
 - Go to <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables. </details>
 
 <details>
@@ -49,7 +49,7 @@
 <br>
 
 ```sh
-git clone https://github.com/avipatilpro/FileStreamBot
+git clone https://github.com/Gautamkumarg/FileStreamBot
 cd FileStreamBot
 python3 -m venv ./venv
 . ./venv/bin/activate
@@ -185,12 +185,9 @@ PORT = 8080
 
 ### ❤️ Thanks To :
 
-- [**Me**](https://github.com/AvishkarPatil) : Owner of This FileStreamBot
+- [**Avishkar Patil**](https://github.com/AvishkarPatil) : Owner of This FileStreamBot
 - [**Deekshith SH**](https://github.com/DeekshithSH) : for some modules.
 - [**EverythingSuckz**](https://github.com/EverythingSuckz) : for his [FileStreamBot](https://github.com/EverythingSuckz/FileStreamBot)
 
 ---
 <h4 align='center'>© 2024 Aνιѕнкαя Pαтιℓ</h4>
-
-
-
