@@ -187,5 +187,3 @@ PORT = 8080
 - [**Deekshith SH**](https://github.com/DeekshithSH) : for some modules.
 - [**EverythingSuckz**](https://github.com/EverythingSuckz) : for his [FileStreamBot](https://github.com/EverythingSuckz/FileStreamBot)
 
----
-<h4 align='center'>© 2024 Aνιѕнкαя Pαтιℓ</h4>
