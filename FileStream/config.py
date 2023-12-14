@@ -7,9 +7,9 @@ load_dotenv()
 class Telegram:
     API_ID = int(env.get("API_ID", "27384907"))
     API_HASH = str(env.get("API_HASH", "141c715ecc46b78dbd15d34f83e259cb"))
-    BOT_TOKEN = str(env.get("BOT_TOKEN",  "6795244416:AAFutUCj63ygVrbJyBw5vc1GNwahwZd5tqk"))
+    BOT_TOKEN = str(env.get("BOT_TOKEN",  "6976618488:AAH1e1F_KfkIH9VmJSljjeSV4eJXIGn98Ls"))
     OWNER_ID = int(env.get('OWNER_ID', '6177970139'))
-    WORKERS = int(env.get("WORKERS", "6"))  # 6 workers = 6 commands at once
+    WORKERS = int(env.get("WORKERS", "10"))  # 6 workers = 6 commands at once
     DATABASE_URL = str(env.get('DATABASE_URL', 'mongodb+srv://sowenb:HjeaAOK25jvuv1WF@cluster0.0tog2ts.mongodb.net/?retryWrites=true&w=majority' ))
     UPDATES_CHANNEL = str(env.get('UPDATES_CHANNEL', "GKBOTZ"))
     SESSION_NAME = str(env.get('SESSION_NAME', 'FileStream'))
@@ -19,7 +19,7 @@ class Telegram:
     IMAGE_FILEID = env.get("IMAGE_FILEID", "https://telegra.ph/file/ea80f7cdbc7a9bfd9378c.jpg")
     MULTI_CLIENT = True
     LOG_CHANNEL = int(
-        env.get("BIN_CHANNEL", "-1002020901353")
+        env.get("BIN_CHANNEL", "-1002116396818")
     )  # you NEED to use a CHANNEL when you're using MULTI_CLIENT
     MODE = env.get("MODE", "primary")
     SECONDARY = True if MODE.lower() == "secondary" else False
