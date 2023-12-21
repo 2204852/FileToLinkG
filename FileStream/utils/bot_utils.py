@@ -42,7 +42,7 @@ async def is_user_joined(bot, message: Message):
 
 async def gen_link(_id):
     file_info = await db.get_file(_id)
-    file_name = file_info['file_caption']
+    file_name = file_info['file_name']
     file_size = humanbytes(file_info['file_size'])
     mime_type = file_info['mime_type']
 
@@ -51,7 +51,7 @@ async def gen_link(_id):
     file_link = f"https://t.me/{FileStream.username}?start=file_{_id}"
 
     if "video" in mime_type:
-        stream_text = LANG.STREAM_TEXT.format(file_name, file_size, stream_link, page_link, file_link)
+        stream_text = LANG.STREAM_TEXT.format(stream_link, page_link, file_link)
         reply_markup = InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("𝙎𝙏𝙍𝙀𝘼𝙈 🖥", url=page_link), InlineKeyboardButton("𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿 📥",url=stream_link)],
@@ -59,7 +59,7 @@ async def gen_link(_id):
             ]
         )
     else:
-        stream_text = LANG.STREAM_TEXT_X.format(file_name, file_size, stream_link, file_link)
+        stream_text = LANG.STREAM_TEXT_X.format( stream_link, file_link)
         reply_markup = InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿 📥", url=stream_link)],
@@ -72,7 +72,7 @@ async def gen_link(_id):
 
 async def gen_linkx(m:Message , _id, name: list):
     file_info = await db.get_file(_id)
-    file_name = file_info['file_caption']
+    file_name = file_info['file_name']
     mime_type = file_info['mime_type']
     file_size = humanbytes(file_info['file_size'])
 
@@ -81,14 +81,14 @@ async def gen_linkx(m:Message , _id, name: list):
     file_link = f"https://t.me/{FileStream.username}?start=file_{_id}"
 
     if "video" in mime_type:
-        stream_text= LANG.STREAM_TEXT_X.format(file_name, file_size, stream_link, page_link)
+        stream_text= LANG.STREAM_TEXT_X.format( stream_link, page_link)
         reply_markup = InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("𝙎𝙏𝙍𝙀𝘼𝙈 🖥", url=page_link), InlineKeyboardButton("𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿 📥", url=stream_link)]
             ]
         )
     else:
-        stream_text= LANG.STREAM_TEXT_X.format(file_name, file_size, stream_link, file_link)
+        stream_text= LANG.STREAM_TEXT_X.format( stream_link, file_link)
         reply_markup = InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿 📥", url=stream_link)]
